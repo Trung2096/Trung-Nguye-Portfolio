@@ -12,21 +12,21 @@
 <body>
     <!-- Header -->
     <!-- This Header is located at the left hand side and it is locked when page is scrolled, it will disappear when the webpage horizontal resolution is < 990px -->
-    <header>
+    <header class="centre-text">
         <h1>Trung Nguyen</h1>
         <div>
-            <img src="./assets/image/my photo.png" alt="Trung Nguyen Photo">
+            <img id = "my-photo" src="./assets/image/my photo.png" alt="Trung Nguyen Photo">
             <p>Hello, I am Trung Nguyen, I am a software engineer. Welcome to my portfolio webpage.</p>
         </div>
 
         <!-- List of image hyperlink -->
         <div>
             <ul>
-                <li><a href="#"><img src="./assets/image/facebook.png" alt="Facebook Logo Image"></a></li>
+                <li><a href="#"><img class="logo-image" id = "facebook-logo" src="./assets/image/facebook.png" alt="Facebook Logo Image"></a></li>
                 <!-- Facebook -->
-                <li><a href="#"><img src="./assets/image/linkedin.png" alt="Linkedin Logo Image"></a></li>
+                <li><a href="#"><img class="logo-image" src="./assets/image/linkedin.png" alt="Linkedin Logo Image"></a></li>
                 <!-- Linkedin -->
-                <li><a href="#"><img src="./assets/image/github.png" alt="Github Logo Image"></a></li> <!-- Github -->
+                <li><a href="#"><img class="logo-image" src="./assets/image/github.png" alt="Github Logo Image"></a></li> <!-- Github -->
             </ul>
         </div>
 
@@ -35,51 +35,55 @@
 
         <div>
             <ul>
-                <li>About Me</li>       
-                <li>Portfolio</li>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li> <a class="item" href="#">About Me</a> </li>       
+                <li> <a class="item" href="#">Portfolio</a></li>
+                <li> <a class="item" href="#">Resume</a> </li>
+                <li> <a class="item" href="#">Contact</a> </li>
             </ul>
         </div>
     </header>
 
     <!-- Main -->
     <!-- This part shows the main contents of the portfolio -->
-    <main>
+    <main class="main-section">
         <!-- division 1, this div shows a short intro  -->
-        <div>
-            <h2>Portfolio</h2>
-            <P>Welcome to my portfolio. I am software engineer and my expertise is Fullstack Web Development. As a
+        <div class="centre-text">
+            <h2 class="portfolio-title">Portfolio</h2>
+            <P class="text">Welcome to my portfolio. I am software engineer and my expertise is Fullstack Web Development. As a
                 coding lover I enjoy solving challenging problems and building software. I deeply care about building a
                 friendly user Web application and pleasant most users possible
             </P>
         </div>
 
-
-        <!-- division 2, shows shows all projects I have done-->
+        <!-- division 2, shows big project I have done-->
         <div>
-            <section>
-                <h3>Automation testing Tool</h3>
-                <img src="./assets/image/software engineering theme.jpg" alt="Software Engineering Image">
+            <section class="card">
+                <h3>Automation Testing Tool</h3>
+                <img id = "p1-img" src="./assets/image/software engineering theme.jpg" alt="Software Engineering Image">
             </section>
-
-            <section>
+        </div>
+        
+        <!-- division 3, shows other projects  I have done-->
+        <div class="other-project">
+            <section class="other-card">
                 <h3>Project 2</h3>
-                <img src="./assets/image/laptop and coffee.jpg" alt="Laptop and Coffee Image">
+                <img id="other-img" src="./assets/image/laptop and coffee.jpg" alt="Laptop and Coffee Image">
             </section>
 
-            <section>
+            <section class="other-card">
                 <h3>Project 3</h3>
-                <img src="./assets/image/starry sky.jpg" alt="Starry Sky Image">
+                <img id="other-img" src="./assets/image/starry sky.jpg" alt="Starry Sky Image">
             </section>
 
-            <section>
+            <section class="other-card">
                 <h3>Project 4</h3>
-                <img src="./assets/image/motivative quote in a book.jpg" alt="Motivation Quote in Book Image">
+                <img id="other-img" src="./assets/image/motivative quote in a book.jpg" alt="Motivation Quote in Book Image">
             </section>
 
-            <section>Project 5</section>
-            <img src="./assets/image/book and pencil.jpg" alt="Book and Pencil Image">
+            <section class="other-card">
+                <h3>Project 5</h3>
+                <img id="other-img" src="./assets/image/book and pencil.jpg" alt="Book and Pencil Image">
+            </section>
         </div>
     </main>
 
