@@ -1,8 +1,3 @@
-
-:root{
-    --line_height: 1.5;
-}
-
 /* Universal selector */
 * {
     box-sizing: border-box;
@@ -10,10 +5,7 @@
 
 body {
     font-family: Arial;
-    background-color: #dbe5e3;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    margin: 0;
 }
 
 header {
@@ -26,7 +18,7 @@ header {
     width: 280px;
     overflow-y: auto;
     display: block;
-    line-height: var(--line_height);
+    line-height: 1.5;
 }
 
 h1 {
@@ -35,27 +27,10 @@ h1 {
     font-size: 30px;
 }
 
-
 hr{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-h3{
-    margin: 0 0 20 0;
-    padding: 20 20 20 0;
-    background: #cde0a1;
-}
-
-footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-  }
-
 /* Text in the centre */
 .centre-text {
     text-align: center;
@@ -71,8 +46,7 @@ footer {
 .item{
     font-size: 15;
     font-weight: bold;
-    margin-bottom: 30px;
-    color: #fff;
+    margin-bottom: 20px;
 }
 
 .main-section {
@@ -83,32 +57,10 @@ footer {
     font-size: 30px;
     font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 20px;
 }
 
 .text{
     text-align: center;
-    line-height: var(--line_height);
-    margin-left: 300;
-    margin-right: 200;
-}
-
-.card{
-    border-width: 1px;
-    padding: 10px;
-    flex: 0 0 300px;
-    margin: 50;
-}
-
-.other-project{
-    flex: 4;
-}
-
-.other-card{
-    border-width: 1px;
-    padding: 10px;
-    flex: 0 0 300px;
-    margin: 50;
 }
 
 #my-photo {
@@ -121,16 +73,4 @@ footer {
 #facebook-logo {
     width: 65px;
     height: 65px;
-    margin-top: 10px;
 }
-
-#p1-img{
-    width: 1400px;
-    height: 700px;
-}
-
-#other-img{
-    width: 400px;
-    height: 300px;
-}
-
